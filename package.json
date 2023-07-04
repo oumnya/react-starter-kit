@@ -16,7 +16,6 @@
     "lint": "eslint --cache --report-unused-disable-directives .",
     "test": "vitest",
     "build": "yarn workspaces foreach -ti run build",
-    
     "deploy": "yarn workspace edge deploy"
   },
   "devDependencies": {
